@@ -51,10 +51,16 @@ claude mcp add nimrod --transport http https://nimrod.orchis.ai/mcp \
 **Nimrod Desktop (full toolkit — recommended for power users):** a locally
 installed MCP server with six research skills, a deep-research agent, and
 local extraction that never touches your credits. Grab it from
-[**Releases**](../../releases): `nimrod.mcpb` for Claude Desktop (double-click,
-paste key) or `nimrod-desktop.exe` for Claude Code (`nimrod-desktop setup`,
-then `claude mcp add nimrod -- path\to\nimrod-desktop.exe`). Windows today;
-macOS/Linux planned.
+[**Releases**](../../releases):
+
+- **Windows** — `nimrod.mcpb` for Claude Desktop (double-click, paste key),
+  or `nimrod-desktop.exe` for Claude Code: `nimrod-desktop setup`, then
+  `claude mcp add nimrod -- path\to\nimrod-desktop.exe`
+- **macOS** — `nimrod-desktop-macos` (universal: Apple Silicon + Intel):
+  `chmod +x` it, then a one-time
+  `xattr -d com.apple.quarantine nimrod-desktop-macos` (not yet
+  Apple-signed), then `setup` and `claude mcp add` as above
+- **Linux** — `nimrod-desktop-linux`: `chmod +x`, `setup`, `claude mcp add`
 
 ## Built to pair
 
