@@ -26,7 +26,7 @@ Nimrod gives Claude four research tools:
 | `google_search` | Organic Google results with quality scores, authority ratings, and source-type classification | 1 credit |
 | `extract_webpage_content` | Any URL → clean markdown, boilerplate stripped | free |
 | `extract_multiple_webpages` | Up to 5 URLs, fetched concurrently | free |
-| `research_topic` | Search → rank → dedupe → extract → synthesis, in one call | 1 credit per search |
+| `research_topic` | Search → rank → dedupe → extract → synthesis, in one call | 1 credit + 1 per focus area |
 
 Why not just let the model search? Because raw search is where agent runs go to
 die: Nimrod returns **ranked evidence instead of SEO sludge**, as
@@ -50,7 +50,9 @@ claude mcp add nimrod --transport http https://nimrod.orchis.ai/mcp \
 
 **Nimrod Desktop (full toolkit — recommended for power users):** a locally
 installed MCP server with six research skills, a deep-research agent, and
-local extraction that never touches your credits. Grab it from
+search-coach hooks (Claude Code features). Extraction is free on every plan;
+on Desktop it also runs on your own machine, so the pages you read stay
+private. Grab it from
 [**Releases**](../../releases):
 
 - **Windows** — `nimrod.mcpb` for Claude Desktop (double-click, paste key),
