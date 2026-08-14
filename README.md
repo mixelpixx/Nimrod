@@ -37,7 +37,7 @@ New accounts start with a **free 50-credit trial** — no card required.
 
 ## Get connected
 
-**claude.ai & Claude Desktop (zero install):** Settings → Connectors → Add
+**Claude.ai & Claude Desktop (zero install):** Settings → Connectors → Add
 custom connector → paste `https://nimrod.orchis.ai/mcp` → sign in with your
 email. Done.
 
