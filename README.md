@@ -59,7 +59,7 @@ macOS/Linux planned.
 ## Built to pair
 
 Run Nimrod beside your other MCP tools — like
-[Konnect](https://kicad.orchis.ai) for KiCAD: live parts data from your EDA
+[Konnect](https://github.com/mixelpixx/Konnect) for KiCAD: live parts data from your EDA
 workflow, live web research from Nimrod, one agent, no stale training cutoff.
 
 ## Support
