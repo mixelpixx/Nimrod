@@ -64,6 +64,12 @@ private. Grab it from
   Apple-signed), then `setup` and `claude mcp add` as above
 - **Linux** — `nimrod-desktop-linux`: `chmod +x`, `setup`, `claude mcp add`
 
+## In the MCP Registry
+
+Nimrod is listed in the [official MCP Registry](https://registry.modelcontextprotocol.io)
+as **`ai.orchis/nimrod`** — MCP clients that browse the registry (including
+VS Code's MCP gallery) can discover and install it from there.
+
 ## Built to pair
 
 Run Nimrod beside your other MCP tools — like
